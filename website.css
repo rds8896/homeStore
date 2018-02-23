@@ -1,0 +1,411 @@
+ @font-face{
+                font-family: raman;
+                src:url(blacksword.otf)
+            }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #F1F3F6;
+}
+.top_row{
+    width: 100%;
+    background: url(social-block-bg.png);
+    height: 120px;
+}
+.logo>img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+.company_name{
+    float: left;
+    height: 100%;
+    width:800px;
+}
+.company_name>h1{
+    color: #009999;
+    font-family: raman;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -15px;
+}
+.social_media{
+    float: right;
+    height: 120px;
+    width: 300px;
+    margin-top: 20px;
+}
+.connectus{
+    float: left;
+}
+.icons{
+    float: left;
+    
+}
+.icons i{
+    font-size: 25px;
+    padding-top: 5px;
+    color: black;
+}
+
+.circle{
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    text-align: center;   
+}
+
+.circle:hover{
+    border: 2px solid #CE1815;
+}
+.icons i:hover{
+    color: #CE1815;
+}
+.whatsapp{
+    margin-left: 25px;
+}
+.whatsapp_size{
+    float: left;
+    font-size: 46px;
+    color: #000000;
+    font-weight: bolder;
+}
+.whatsapp_size:hover{
+    color: #000000;
+}
+
+.whatsapp>h3{
+    margin-left: 60px;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.main_menu{
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    background: #006666;
+/*    padding-top: 30px;*/
+}
+
+.menu{
+    list-style-type: none;
+/*    border-top: 2px solid black;*/
+}
+
+.menu_item{
+    float: left;
+    width: 247px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    background: #006666;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.sub_menu{
+    display: none;
+    width: 108%;
+    height: 185px;
+    background: #006666 ;
+    margin-left: -20px;
+    margin-top: 3px;
+    list-style-type: none;
+}
+
+.sub_menu_item{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+}
+
+.menu_item:hover{
+    background: #99d6d6;
+    color: black;
+}
+.menu_item:hover .sub_menu{
+    display: block;
+}
+
+.sub_menu_item:hover {
+    background: #99d6d6;
+    color: black;
+    font-weight: bolder;
+}
+
+.sideMenu{
+    float: left;
+    width: 250px;
+    height: 310px;
+    margin-top: 80px;
+    margin-left: 30px;
+    background: white;
+}
+.side_menu{
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #000000;
+}
+
+.side_menu_item{
+    height: 60px;
+    border: 1px solid #5C5C5C;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.side_menu_item>a{
+    display: block;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.side_menu_item:hover{
+    background: aqua;
+    border: 1px solid blue;
+}
+
+
+.contents{
+    float: left;
+    width: 850px;
+    height: 600px;
+    background: white;
+    margin-top: -620px;
+    margin-left: 420px;
+    overflow-y: scroll;
+}
+
+
+.product{
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin: 13px;
+}
+
+.product_image img{
+    width: 225px;
+    height: 150px;
+    margin: 12px;
+}
+.product_image_mobile img{
+    width: 100px;
+    height: 150px;
+    margin: 12px;
+    margin-left: 70px;
+}
+
+.description{
+    width: 225;
+    height: 100;
+    margin: 12px;
+}
+.product_name{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.price{
+    font-size: 25px;  
+    text-align: left;
+    margin-top: 15px;
+}
+.oldPrice{
+    font-size: 22px;
+    margin-left: 14px;
+    text-decoration: line-through;
+}
+
+
+
+.newsFeed{
+    width: 320px;
+    height: 300px;
+    background: white;
+    margin-top: 440px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+
+.newsFeed_title>h3{
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid black;
+    background: #009999;
+    color: white;
+    text-shadow: 4px 4px 4px blue;
+}
+
+.marquee_news p{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+}
+
+.services{
+    width: 100%;
+    height: 300px;
+/*    background: #F1F3F6;*/
+}
+.heading{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.heading>h2{
+    font-size: 40px;
+    color: #009999;
+}
+
+.service_section{
+    width: 1100px;
+    height: 250px;
+    background: white;
+    margin: 0 auto;
+}
+
+.servicePart{
+    float: left;
+    width: 225px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.service_description{
+    float: left;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.testimonials{
+    width: 100%;
+    height: 300px;
+}
+
+.testimonail_section{
+    width: 1100px;
+    height: 250px;
+    background: white;
+    margin: 0 auto;
+}
+
+.testimonial_part{
+    float: left;
+    width: 225px;
+    height: 200px;
+    margin: 40px;
+    margin-left: 50px;
+}
+
+.user_info>img{
+    float: left;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.user_name{
+    float: left;
+    margin-left: 15px;
+}
+.user_name{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.user_info .rating{
+    padding-top: 70px;
+}
+
+.checked{
+    color: orange;
+}
+
+.review h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.review_description>p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact_portion{
+    width: 100%;
+    height: 300px;
+}
+.contact{
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin: 20px;
+}
+.contact_heading{
+    font-size: 32px;
+    color: #009999;
+    text-align: center;
+}
+
+.contact_form{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.contact_form_table{
+    padding: 20px;
+}
+
+#name{
+    width: 320px;
+}
+
+#issue{
+    width: 320px;
+}
+
+#submit{
+    margin-left: 210px;
+    height: 50px;
+    width: 100px;
+    background: #009999;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px blue;
+    color: white;
+    font-size: 24px;
+}
+
+.feedback{
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin: 20px;
+}
